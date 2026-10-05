@@ -1,0 +1,1 @@
+import { medicine } from "@/type/medicine";

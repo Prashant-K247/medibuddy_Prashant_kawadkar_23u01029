@@ -1,6 +1,6 @@
 import axios from "axios";
 import { medicine, medicineResult, Response } from "@/type/medicine";
-const baseURL = process.env.NEXT_PUBLIC_API;
+const baseURL = "https://api.fda.gov/drug/";
 
 function medicineAPI(medicine: medicineResult):medicine{
     return{
